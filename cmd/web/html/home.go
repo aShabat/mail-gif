@@ -4,7 +4,6 @@ import (
 	"fmt"
 
 	. "maragu.dev/gomponents"
-	// . "maragu.dev/gomponents/components"
 	. "maragu.dev/gomponents/html"
 )
 

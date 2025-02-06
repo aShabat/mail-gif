@@ -3,7 +3,6 @@ package html
 import (
 	. "maragu.dev/gomponents"
 	. "maragu.dev/gomponents/components"
-	// . "maragu.dev/gomponents/html"
 )
 
 type PageProps struct {

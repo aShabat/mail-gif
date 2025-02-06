@@ -3,15 +3,16 @@ package main
 import (
 	"fmt"
 	"image/gif"
-	"mail-gif/cmd/server"
-	"mail-gif/cmd/server/models"
-	"mail-gif/cmd/web/html"
 	"math/rand/v2"
 	"net/http"
 	"strconv"
 
 	"github.com/go-chi/chi"
 	"github.com/go-chi/chi/middleware"
+
+	"mail-gif/cmd/server"
+	"mail-gif/cmd/server/models"
+	"mail-gif/cmd/web/html"
 )
 
 type Application struct {
