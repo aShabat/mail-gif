@@ -3,9 +3,10 @@ package main
 import (
 	"fmt"
 	"image/gif"
-	"math/rand/v2"
 	"net/http"
 	"strconv"
+
+	rand "math/rand/v2"
 
 	"github.com/go-chi/chi"
 	"github.com/go-chi/chi/middleware"
